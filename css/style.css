@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 span {
+    height: 10px;
+    width: 10px;
+    background-image: linear-gradient(to right,rgba(91,82,231,1), rgba(0,255,209,1));
+    border-radius: 50%;
+    position: fixed;
+    top: 15px;
+    left: 30px;
+}
+
+h1 span.dot {
+    left: 360px;
+}
+
+form {
+    width: 400px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+div {
+    padding: 10px 30px;
+}
+
+div input {
+    width: 100%;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+div hr {
+    padding-top: 1px;
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(91,82,231,1), rgba(0,255,209,1));
+}
+
+div input#checkbox {
+    vertical-align: middle;
+    width: auto;
+}
+
+.submit {
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    width: 200px;
+    background-image: linear-gradient(to right,rgba(91,82,231,1), rgba(0,255,209,1));
+    text-align: center;
+}
+
+div #submit {
+    color: white;
+    font-size: large;
+    background-color: transparent;
+}
+
+div + p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    text-decoration: none;
+}
